@@ -1,0 +1,36 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-17604b2d6ae-77a12c2af35359e6": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "logol_kevin",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "logol_kevin",
+				"url": "jdbc:mysql://localhost:3306/logol_kevin",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-serverTimezone@": "Asia/Jakarta"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
